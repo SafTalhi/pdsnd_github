@@ -6,7 +6,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
               'NewYork': 'new_york_city.csv',
               'Washington': 'washington.csv' }
 
-
+# Make sure to title all of the user input to avoid any NameError exception
 def user_inputs(input_str,input_type):
     while True:
         input_check = input(input_str).title()
